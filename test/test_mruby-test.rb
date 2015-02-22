@@ -1,4 +1,6 @@
 assert('it can use puts') do
   test = MRubyTest.new
-  assert test.say("hello, mruby!")
+  test.say("hello, mruby!")
+
+  true # we reached here, ok
 end
